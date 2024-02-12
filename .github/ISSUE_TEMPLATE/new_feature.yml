@@ -39,10 +39,10 @@ body:
       Tip: You can attach images by clicking this area to highlight it and then dragging files in.
   validations:
     required: false
-  - type: checkboxes
-    attributes:
-      label: Are you going to work on this?
-      description: 
-      options:
-        - label: If I'm planning to work on this feature, I added myself to the `Assignees` to facilitate tracking who is working on this.
-          required: false
+- type: checkboxes
+  attributes:
+    label: Are you going to work on this?
+    description: 
+    options:
+      - label: If I'm planning to work on this feature, I added myself to the `Assignees` to facilitate tracking who is working on this.
+        required: false
