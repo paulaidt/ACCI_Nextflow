@@ -1,0 +1,41 @@
+name: New feature
+description: Suggest a new feature for this project
+title: "[FEATURE] <title>"
+labels: ["Feature"]
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue / PR for this?
+    description: Please search to see if an issue / PR already exists for the feature suggested.
+    options:
+    - label: I have searched for existing [issues](https://github.com/paulaidt/ACCI_Nextflow/issues)
+      required: true
+    - label: I have searched for existing [PRs](https://github.com/paulaidt/ACCI_Nextflow/pulls)
+      required: true
+- type: textarea
+  attributes:
+    label: Describe the feature
+    description: Provide a short single paragraph description for the feature.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Background
+    description: Provide any additional background for the feature.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Proposted implementation
+    description: Provide a short description of the proposed solution for the new feature.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Add any other context about the new feature here.
+
+      Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
