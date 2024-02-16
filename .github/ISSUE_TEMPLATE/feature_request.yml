@@ -8,16 +8,8 @@ body:
     label: Which type of feature are you implementing?
     description: Please select the appropiate `Label`
     options:
-    - label: New module - addition of a new module to the pipeline.
-      required: false
-    - label: Subworkflow - creation or modification of a subworkflow within the pipeline.
-      required: false
-    - label: Pipeline structure - related to the overall structure or architecture of the pipeline.
-      required: false
-    - label: Refactoring - code refactoring to improve maintainability or readability.
-      required: false
-    - label: Configuration - related to configuring or parameterizing the pipeline components.
-      required: false
+    - label: I have selected the appropiate `Label` for the feature
+      required: true
 - type: checkboxes
   attributes:
     label: Is there an existing issue / PR for this?
