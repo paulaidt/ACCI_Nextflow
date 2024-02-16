@@ -12,11 +12,11 @@ body:
       required: false
     - label: Subworkflow - creation or modification of a subworkflow within the pipeline.
       required: false
-    label: Pipeline structure - related to the overall structure or architecture of the pipeline.
+    - label: Pipeline structure - related to the overall structure or architecture of the pipeline.
       required: false
-    label: Refactoring - code refactoring to improve maintainability or readability.
+    - label: Refactoring - code refactoring to improve maintainability or readability.
       required: false
-    label: Configuration - related to configuring or parameterizing the pipeline components.
+    - label: Configuration - related to configuring or parameterizing the pipeline components.
       required: false
 - type: checkboxes
   attributes:
