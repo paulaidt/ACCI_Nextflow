@@ -6,7 +6,7 @@ body:
 - type: checkboxes
   attributes:
     label: Which type of feature are you implementing?
-    description: Please select the appropiate label
+    description: Please select the appropiate `Label`
     options:
     - label: New module - addition of a new module to the pipeline.
       required: false
