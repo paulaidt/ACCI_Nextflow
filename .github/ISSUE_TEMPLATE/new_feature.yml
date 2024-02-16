@@ -12,6 +12,15 @@ body:
       required: true
     - label: I have searched for existing [PRs](https://github.com/paulaidt/ACCI_Nextflow/pulls)
       required: true
+- type: checkboxes
+  attributes:
+    label: Is there already an implemantation for this feature?
+    description: Please search to see it already exists an implementation for the feature suggested.
+    options:
+    - label: I have searched for existing [nf-modules](https://github.com/nf-core/modules/tree/master/modules/nf-core)
+      required: true
+    - label: I have searched for existing [biocontainers](https://quay.io/organization/biocontainers)
+      required: true
 - type: textarea
   attributes:
     label: Describe the feature
