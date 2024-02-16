@@ -1,8 +1,23 @@
-name: New feature
-description: Suggest a new feature for this project
+name: Feature-related
+description: Feature related issues in the development of the pipeline.
 title: "[FEATURE] <title>"
-labels: ["Feature"]
+labels: ["Module","Subworkflow","Structure","Refactor","Configuration"]
 body:
+- type: checkboxes
+  attributes:
+    label: Which type of feature are you implementing?
+    description: Please select the appropiate label
+    options:
+    - label: New module - addition of a new module to the pipeline.
+      required: false
+    - label: Subworkflow - creation or modification of a subworkflow within the pipeline.
+      required: false
+    label: Pipeline structure - related to the overall structure or architecture of the pipeline.
+      required: false
+    label: Refactoring - code refactoring to improve maintainability or readability.
+      required: false
+    label: Configuration - related to configuring or parameterizing the pipeline components.
+      required: false
 - type: checkboxes
   attributes:
     label: Is there an existing issue / PR for this?
