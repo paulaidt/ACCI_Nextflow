@@ -14,7 +14,7 @@ body:
       required: true
 - type: checkboxes
   attributes:
-    label: Is there already an implemantation for this feature?
+    label: Is there already an implementation for this feature?
     description: Please search to see it already exists an implementation for the feature suggested.
     options:
     - label: I have searched for existing [nf-modules](https://github.com/nf-core/modules/tree/master/modules/nf-core)
