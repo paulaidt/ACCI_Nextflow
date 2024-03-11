@@ -11,13 +11,13 @@ body:
     - label: I have selected (at least) one of the following `Label` for the feature
       required: true
 - type: markdown
-    attributes:
-      value: |
-        - Module: Addition of a new module to the pipeline
-        - Subworkflow: Creation or modification of a subworkflow within the pipeline
-        - Pipeline structure: Related to the overall structure or architecture of the pipeline
-        - Refactor: Code refactoring to improve maintainability or readability
-        - Configuration: Related to configuring or parameterizing the pipeline components
+  attributes:
+    value: |
+      - Module: Addition of a new module to the pipeline
+      - Subworkflow: Creation or modification of a subworkflow within the pipeline
+      - Pipeline structure: Related to the overall structure or architecture of the pipeline
+      - Refactor: Code refactoring to improve maintainability or readability
+      - Configuration: Related to configuring or parameterizing the pipeline components
 - type: checkboxes
   attributes:
     label: Is there an existing issue / PR for this?
