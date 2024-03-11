@@ -13,7 +13,6 @@ body:
 - type: markdown
     attributes:
       value: |
-        Possible Labels:
         - Module: Addition of a new module to the pipeline
         - Subworkflow: Creation or modification of a subworkflow within the pipeline
         - Pipeline structure: Related to the overall structure or architecture of the pipeline
