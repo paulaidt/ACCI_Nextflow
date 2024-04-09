@@ -13,7 +13,8 @@
      git pull origin devel
      ```
 
-> The main branch serves as the stable, production-ready version of the repository and is updated only by the repository maintainer from the development branch (`devel`) once it reaches a mature state. Therefore, it is not intended for regular development work. The development branch, on the other hand, is where ongoing development and integration of features take place. Contributors are encouraged to work on your branches and merge their changes into the development branch following the outlined guidelines.
+   > The development branch, `devel`, serves as the primary workspace for ongoing development and integration of features. Contributors are encouraged to work on their individual branches and merge their changes into the development branch following the outlined guidelines. 
+   The `main` branch, on the other hand, functions as the stable, production-ready version of the repository. It will be updated only by the repository maintainer from the development branch once it reaches a mature state. Therefore, it is not intended for regular development work.
 
 2. **Create a New Branch:**
    - Before making any changes, create a new branch for your `issue` (new feature or fix). Use a descriptive name for the branch that reflects the purpose of your changes.
