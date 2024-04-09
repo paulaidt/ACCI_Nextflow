@@ -6,24 +6,29 @@
      git clone <repository_url>
      ```
 
-1. **Update Local Content (Already Cloned):**
-   - If you have already cloned the repository, ensure your local content is up to date with the latest changes from the development branch (`devel`) by running:
+1. **Update Local Content (Previously Cloned):**
+   - If you have previously cloned the repository, ensure your local content is up to date with the latest changes from the development branch (`devel`) by running:
      ```
      git checkout devel
      git pull origin devel
      ```
 
+> The main branch serves as the stable, production-ready version of the repository and is updated only by the repository maintainer from the development branch (`devel`) once it reaches a mature state. Therefore, it is not intended for regular development work. The development branch, on the other hand, is where ongoing development and integration of features take place. Contributors are encouraged to work on your branches and merge their changes into the development branch following the outlined guidelines.
+
 2. **Create a New Branch:**
-   - Before making any changes, create a new branch for your feature or fix. Use a descriptive name for the branch that reflects the purpose of your changes.
+   - Before making any changes, create a new branch for your `issue` (new feature or fix). Use a descriptive name for the branch that reflects the purpose of your changes.
      ```
      git checkout -b <branch_name>
      ```
 
 3. **Make Changes:**
-- Make your code changes or additions in the local repository.
+   - Make your code changes or additions in the local repository.
 
 4. **Commit Changes:**
-   - Once your changes are complete, stage the files for commit by adding them using `git add <file_name>`.
+   - Once your changes are complete, stage the files for commit by adding them using:
+     ```
+     git add <file_name>
+     ```
    - Use `git status` to review the changes before committing.
    - Commit the staged changes with a descriptive message using the following command:
      ```
@@ -51,13 +56,13 @@
 8. **Merge the Pull Request:**
    - Once your pull request is approved and passes any required checks (such as automated tests), it can be merged into the `devel` branch of the repository.
    - Click the "Merge Pull Request" button on GitHub.
-   - Suggested: delete the feature branch after merging for better repository organization and maintenance.
-   ```
-   git branch -d <branch_name>
-   ```
+   - Suggested: delete your branch after merging for better repository organization and maintenance.
+      ```
+      git branch -d <branch_name>
+      ```
 
 9. **Update Your Local Repository:**
-   - After your changes have been merged, it's a good practice to update your local repository with the latest changes from the development branch (`devel`).
+   - After your changes have been merged, it's a good practice to update your local repository with the latest changes from the development branch.
      ```
      git checkout devel
      git pull origin devel
