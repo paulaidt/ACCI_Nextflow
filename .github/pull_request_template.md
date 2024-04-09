@@ -1,26 +1,19 @@
-## Pull Request
-
-**Description:** Feature related issues in the development of the pipeline.
-
-**Title:** "[PR] <title>"
-
----
-
 ### Is there an existing PR for this?
 - [ ] I have searched for existing PRs
 
 ### Types of changes:
-- [ ] Bug fix (change which fixes an issue)
-- [ ] New feature (change which adds functionality)
-
-### Check list:
-Please verify that you have completed the following:
-- [ ] Documentation update: Ensure the project's documentation is updated if necessary.
-- [ ] Test inclusion: Include tests for the Continuous Integration (CI) if applicable.
-- [ ] Guidelines adherence: Follow the provided guidelines for the changes made.
+- [ ] Bug fix (change which fixes an identified problem)
+- [ ] "New" feature (change which adds or improves existing functionality)
 
 ### Description
-Please include a brief summary of the PR. List any dependencies required for this change, if there are any.
+Please include a summary of the changes and the related issue(s). List any dependencies that are required for this change, if any.
 
-### Related to / Depends on
-List of related issues (`#ISSUE-NUMBER`) or PRs.
+Fixes `#ISSUE-NUMBER`
+
+### Checklist:
+Please verify that you have completed the following:
+- [ ] Guidelines adherence: my changes follow the guidelines of this project
+- [ ] I have performed a self-review of my code
+- [ ] Documentation update: I have made corresponding changes to the documentation, if necessary.
+- [ ] Test inclusion: I have added tests that prove my code is effective and works.
+- [ ] New and existing unit tests pass locally with my changes.
