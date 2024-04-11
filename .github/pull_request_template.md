@@ -12,8 +12,8 @@ Fixes `#ISSUE-NUMBER`
 
 ### Checklist:
 Please verify that you have completed the following:
-- [ ] Guidelines adherence: my changes follow the guidelines of this project
-- [ ] I have performed a self-review of my code
+- [ ] Guidelines adherence: my changes follow the [guidelines](../implementation_guidelines.md) of this project.
 - [ ] Documentation update: I have made corresponding changes to the documentation, if necessary.
 - [ ] Test inclusion: I have added tests that prove my code is effective and works.
 - [ ] New and existing unit tests pass locally with my changes.
+
